@@ -10,5 +10,6 @@ class CouponsController < ApplicationController
   
   def create 
     
+    redirect_to coupon
   end 
 end 
